@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-.Roboto-font {font-family:"Roboto Mono"}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: "Avantt";
-    src: url(/assest/font/AvanttTRIAL-Medium-BF6721a86adebb3.otf);
+  font-family: "Avantt";
+  src: url("/assest/font/AvanttTRIAL-Medium-BF6721a86adebb3.otf");
 }
-body{font-family:"Avantt";}
+body {
+  font-family: "Avantt";
+}
+.Roboto-font {
+  font-family: "Roboto Mono" !important;
+}
 @font-face {
-    font-family: "avantt-bold";
-    src: url(/assest/font/AvanttTRIAL-Bold-BF6721a86b15f0a.otf);
+  font-family: "avantt-bold";
+  src: url("/assest/font/AvanttTRIAL-Bold-BF6721a86b15f0a.otf");
 }
-.avant-bold{font-family: "avantt-bold";}
+.avant-bold {
+  font-family: "avantt-bold";
+}

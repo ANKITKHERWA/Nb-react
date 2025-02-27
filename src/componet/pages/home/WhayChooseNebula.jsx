@@ -1,5 +1,6 @@
 import HomeAcordion from "@/componet/common/HomeAcordion";
 import SubHeading from "@/componet/common/SubHeading";
+import { accordionList, accordionList2 } from "@/componet/helper/Helper";
 import React from "react";
 
 function WhayChooseNebula() {
@@ -15,14 +16,18 @@ function WhayChooseNebula() {
           />
           <div className="flex max-md:flex-wrap xl:gap-[70px] md:gap-[50px]  gap-0  !items-center">
             <div className="w-full md:w-[50%]">
-              <HomeAcordion />
-              <HomeAcordion />
-              <HomeAcordion />
+              {accordionList.map((item, index) => (
+                <div key={index}>
+                  <HomeAcordion heading={item.heading} />
+                </div>
+              ))}
             </div>
             <div className="w-full md:w-[50%]">
-              <HomeAcordion />
-              <HomeAcordion />
-              <HomeAcordion />
+              {accordionList2.map((item, index) => (
+                <div key={index}>
+                  <HomeAcordion heading={item.heading} />
+                </div>
+              ))}
             </div>
           </div>
         </div>

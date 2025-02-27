@@ -15,7 +15,7 @@ function Hero() {
               classname={"sm:max-w-[511px] max-w-[230px]"}
               title={"Welcome to Nebula Vets"}
             />
-            <Para para={"Reinventing Pet Medicine"} paraclass={"roboto-font"} />
+            <Para para={"Reinventing Pet Medicine"} paraclass={"Roboto-font"} />
             <div className="mt-[38px]">
               <LearnMore learnMore={"BOOK NOW"} path={"/home"} />
             </div>

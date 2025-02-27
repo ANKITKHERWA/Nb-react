@@ -13,13 +13,10 @@ function Hero() {
           <div className="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
             <div className=" justify-between pt-[140px] sm:pb-[80px] pb[0px] sm:flex flex-wrp">
               <div className="  lg:pl-[100px] xl:pl-[136px] relative z-1">
-                <MainHeading
-                  title={"Animal Health Check"}
-                  classname={"!pt-[140px]"}
-                />
+                <MainHeading title={"Vaccinations"} classname={"!pt-[140px]"} />
                 <Para
                   para={
-                    "This comprehensive assessment involves a thorough evaluation of your pet's major organ systems. During this visit, we take the opportunity to discuss important aspects of your pet's well-being, including their behavior, appetite, exercise routines, and daily activities at home. It is also an ideal occasion for us to recommend any routine diagnostic tests that could be advantageous for your pet's health or to determine if any vaccinations are due."
+                    "Vaccinations are key in keeping your pet healthy and preventing them catching life-threatening disease. Our veterinary team is dedicated to providing comprehensive vaccination services tailored to your pet's individual needs and lifestyle. This includes not only dogs and cats but also rabbits and ferrets."
                   }
                   paraclass={""}
                 />
@@ -29,21 +26,13 @@ function Hero() {
               </div>
               <div>
                 <HeroImage
-                  src={"/assest/img/png/animal-health.png"}
+                  src={"/assest/img/png/vaccinations-img.png"}
                   imgclass={
-                    "absolute -right-10 bottom-0 sm:block hidden sm:max-w-[500px] xl:max-w-full"
+                    "absolute -right-10 bottom-0  sm:max-w-[500px] xl:max-w-full"
                   }
-                  imgh={"521"}
-                  imgw={"528"}
+                  imgh={"517"}
+                  imgw={"649"}
                   alt={"/"}
-                />
-              </div>
-              <div className="sm:hidden">
-                <Image
-                  src="/assest/img/png/hero-cat-dog-right.png"
-                  width={362}
-                  height={252}
-                  alt="img"
                 />
               </div>
             </div>

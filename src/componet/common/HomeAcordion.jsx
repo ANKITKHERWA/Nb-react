@@ -1,11 +1,12 @@
 import React from "react";
 
-function HomeAcordion() {
+function HomeAcordion({ heading, className }) {
   return (
     <>
       <div>
-        <button className="w-full flex justify-between gap-5 items-center text-base md:text-lg lg:text-xl text-[#D7D9DD] font-semibold text-start !leading-[150%] py-8">
-          <span className="Roboto-font">Cutting-Edge Technology</span>
+        <button
+          className={`w-full flex justify-between gap-5 items-center text-base md:text-lg lg:text-xl text-[#D7D9DD] font-semibold text-start !leading-[150%] Roboto-font py-8 ${className}`}>
+          <span>{heading}</span>
           <span id="icon-1" className=" transition-transform duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"

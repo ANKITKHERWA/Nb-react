@@ -2,7 +2,6 @@ import HeroImage from "@/componet/common/HeroImage";
 import LearnMore from "@/componet/common/LearnMore";
 import MainHeading from "@/componet/common/MainHeading";
 import Para from "@/componet/common/Para";
-import Image from "next/image";
 import React from "react";
 
 function Hero() {

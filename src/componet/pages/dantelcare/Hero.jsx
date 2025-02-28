@@ -12,11 +12,11 @@ function Hero() {
         <div className="bg-[#494336] relative">
           <div className="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
             <div className=" justify-between pt-[140px] sm:pb-[80px] pb[0px] sm:flex flex-wrp">
-              <div className="lg:pl-[100px] xl:pl-[136px] relative z-1 pt-20">
-                <MainHeading title={"Veterinary Services"} classname={""} />
+              <div className="  lg:pl-[100px] xl:pl-[136px] relative z-1">
+                <MainHeading title={"Dental Care"} classname={"!pt-[140px]"} />
                 <Para
                   para={
-                    "At Nebula Vets, we take pride in offering an extensive range of services to meet the diverse needs of our patients. Our commitment to comprehensive care ensures that we can provide the highest quality veterinary services under one roof."
+                    "At Nebula Vets, we recognize the significance of dental hygiene in maintaining your pet's overall health. Dental disease can have far-reaching implications, potentially leading to serious conditions like heart disease and kidney disease. To ensure your pet's oral health, we conduct thorough dental examinations to identify any dental issues that require attention."
                   }
                   paraclass={""}
                 />
@@ -26,12 +26,12 @@ function Hero() {
               </div>
               <div>
                 <HeroImage
-                  src={"/assest/img/png/herovat-service.png"}
+                  src={"/assest/img/png/dental.png"}
                   imgclass={
                     "absolute -right-10 bottom-0 sm:block hidden sm:max-w-[500px] xl:max-w-full"
                   }
-                  imgh={"426"}
-                  imgw={"653"}
+                  imgh={"521"}
+                  imgw={"528"}
                   alt={"/"}
                 />
               </div>

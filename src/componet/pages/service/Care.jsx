@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Care() {
@@ -8,32 +9,32 @@ function Care() {
           <div>
             <ul className="lg:flex flex-wrp justify-between  gap-3 list-none">
               <li>
-                <a
+                <Link
                   href={"/"}
                   className="text-[#D7D9DD] text-2xl sm:text-3xl xl:text-4xl opacity-40 hover:text-white hover:opacity-100 duration-300">
                   Preventive Care
-                </a>
+                </Link>
               </li>
               <li className="lg:mt-0 mt-[20px]">
-                <a
+                <Link
                   href={"/"}
                   className="text-[#D7D9DD] text-2xl sm:text-3xl xl:text-4xl opacity-40 hover:text-white hover:opacity-100 duration-300">
                   Sick Patient Care
-                </a>
+                </Link>
               </li>
               <li className="lg:mt-0 mt-[20px]">
-                <a
+                <Link
                   href={"/"}
                   className="text-[#D7D9DD] text-2xl sm:text-3xl xl:text-4xl opacity-40 hover:text-white hover:opacity-100 duration-300">
                   Surgery
-                </a>
+                </Link>
               </li>
               <li className="lg:mt-0 mt-[20px]">
-                <a
+                <Link
                   href={"/"}
                   className="text-[#D7D9DD] text-2xl sm:text-3xl xl:text-4xl opacity-40 hover:text-white hover:opacity-100 duration-300">
                   Additional Services
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

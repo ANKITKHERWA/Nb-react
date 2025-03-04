@@ -5,8 +5,6 @@ import SubHeading from "@/componet/common/SubHeading";
 import {
   addiCare,
   additional,
-  allCare,
-  allcare,
   animalHealthcheck,
   preCare,
   sikCare,

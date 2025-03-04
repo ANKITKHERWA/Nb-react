@@ -6,15 +6,15 @@ export const navLink = [
     title: "SERVICES",
   },
   {
-    path: "/ABOUT US",
+    path: "/about us",
     title: "ABOUT US",
   },
   {
-    path: "/LOCATION",
+    path: "/location",
     title: "LOCATION",
   },
   {
-    path: "/CAREER",
+    path: "/career",
     title: "CAREER",
   },
   {
@@ -129,7 +129,7 @@ export const cardSickpatient = [
 ];
 export const cardPrevent = [
   {
-    path: "/Animal Health Check",
+    path: "/animal-health",
     title: "Animal Health Check",
   },
   {
@@ -137,7 +137,7 @@ export const cardPrevent = [
     title: "Vaccinations",
   },
   {
-    path: "/Dental",
+    path: "/dantelcare",
     title: "Dental",
   },
 ];
@@ -284,5 +284,125 @@ export const additional = [
     para: "The decision to say goodbye to your pet is the most difficult decision you’ll have to make. Our team at nebula vets is here to guide you through the process with compassion and can perform end-of-life services at the time of your choosing.",
     btnname: "LEARN MORE",
     path: "/",
+  },
+];
+export const Emergencyandurgent = [
+  { heading: "Immediate Access to Care​" },
+  { heading: "Skilled Veterinary Team" },
+  { heading: "State-of-the-Art Facilities" },
+  { heading: "Compassionate and Calm Approach" },
+  { heading: "Comprehensive Emergency Services" },
+  { heading: "Collaborative Care" },
+  { heading: "Seamless Referrals" },
+  { heading: "Emergency Preparedness" },
+];
+export const telemedicinehero = [
+  {
+    heading: "Telemedicine",
+    para: "Nebula Vets' online telemedicine service is a convenient and innovative way to connect with our veterinary doctors from the comfort of your own home. Through this platform, you can have a virtual consultation with our experienced veterinarians, allowing you to receive timely and expert advice for your pet's health concerns without the need to physically visit our clinic.",
+    btnname: "BOOK NOW",
+    path: "/",
+  },
+];
+export const whyusetelemedicine = [
+  {
+    heading: "Why use Telemedicine",
+    para: "Nebula Vets' online telemedicine service is designed to provide immediate advice and guidance for various veterinary issues. Whether you're unsure about the severity of a symptom or need assistance in determining the best course of action for your pet, our experienced veterinarians can offer real-time advice through the telemedicine platform.",
+    heading1: "During the online consultation",
+    para1:
+      "Our veterinarians will carefully assess the information you provide and ask relevant questions to better understand your pet's condition. Based on their evaluation, they can advise you on whether it's safe to monitor the situation at home or if furtherin-person evaluation and treatment are necessary.",
+    para2:
+      "This immediate access to professional veterinary advice can be particularly valuable in situations where you're unsure if a symptom or behavior is concerning enough to warrant a visit to the clinic. It can save you time and unnecessary stress by providing clarity and peace  of mind.",
+    para3:
+      "However, it's important to note that there are limitations to telemedicine, and certain cases may still require an in-person visit for a thorough examination or diagnostic tests. Our veterinarians will use their expertise to determine the most appropriate course of action based on the information provided during the telemedicine consultation.",
+  },
+];
+export const telecard1 = [
+  {
+    heading: "1",
+    para: "Book a telemedicine consult",
+    para1:
+      "Click the chat with vet button below to join a que for a telemedicine online visit.",
+  },
+];
+export const telecard2 = [
+  {
+    heading: "2",
+    para: "Join with the link",
+    para1: "A custom link will be sent to your email",
+  },
+];
+export const telecard3 = [
+  {
+    heading: "3",
+    para: "Video chat",
+    para1:
+      "In a real-time online visit, share with the vet your pet’s current issues.",
+  },
+];
+export const telecard4 = [
+  {
+    heading: "4",
+    para: "Treatment",
+    para1:
+      "Our veterinarian will evaluate your pet and discuss next steps, which may include medication.",
+  },
+];
+export const diagnosticshero = [
+  {
+    heading: "Diagnostics",
+    para: "At Nebula Vets, we are committed to providing comprehensive and advanced diagnostic testing to ensure the well-being of your cherished pet. Our state-of-the-art veterinary hospital offers a range of diagnostic tests that empower us to gain precise insights into your pet's health. Here are some of the key diagnostic tests available at Nebula Vets for the benefit of our clients and their beloved pets:",
+    btnname: "BOOK NOW",
+    path: "/",
+  },
+];
+export const availabletest = [
+  {
+    heading: "Available Tests",
+    para: "At Nebula Vets, we take pride in offering an in-house laboratory equipped with state-of-the-art diagnostic equipment to fulfill your pet's diagnostic needs. Our comprehensive laboratory services include:",
+  },
+];
+export const acodiagnostics1 = [
+  { heading: "Blood Panel" },
+  { heading: "Urinalysis" },
+  { heading: "Fecal Testing" },
+  { heading: "Cytology" },
+  { heading: "Histopathology" },
+  { heading: "Tick & Heart-worm Testing" },
+  { heading: "Allergy Testing" },
+];
+export const availableimaging = [
+  {
+    heading: "Available Imaging",
+    para: "At Nebula Vets, we are committed to providing the highest quality care for your pet, which is why we have invested in state-of-the-art digital X-ray and ultrasound machines. These advanced imaging technologies play a crucial role in our diagnostic capabilities, allowing us to gain valuable insights into your pet's health and well-being.",
+  },
+];
+export const acodiagnostics2 = [
+  { heading: "Digital Radiography" },
+  { heading: "Ultrasound" },
+  { heading: "Echocardiograms" },
+];
+export const snapcard1 = [
+  {
+    heading: "SNAP Lepto Test",
+    para: "Add description",
+    heading1: "SNAP cPL Test",
+    para1: "Assess canine pancreatic health ",
+    heading2: "SNAP Giardia Test",
+    para2: "Add description",
+    heading3: "SNAP Parvo Test",
+    para3: "Add description",
+  },
+];
+export const snapcard2 = [
+  {
+    heading: "SNAP FIV/FeLV Combo Test",
+    para: "Add description",
+    heading1: "SNAP fPL Test",
+    para1: "Assess feline pancreatic health ",
+    heading2: "SNAP Giardia Test",
+    para2: "Add description",
+    heading3: "SNAP Feline proBNP Test",
+    para3: "Quickly assess cats with cardiac risk factors",
   },
 ];

@@ -8,19 +8,18 @@ import Hero from "@/componet/pages/diagnostics/Hero";
 import AvailableSnapTests from "@/componet/pages/diagnostics/AvailableSnapTests";
 import WeLookUrgent from "@/componet/pages/urgent&emergencycare/WeLookUrgent";
 import React from "react";
+import WelookDiagnostic from "@/componet/pages/diagnostics/WeLookDiagnostics";
 
 function page() {
   return (
     <>
-      <Navbar />
       <Hero />
       <AvailableTests />
       <AcoDiagnostics />
       <Availableimaging />
       <Aco2 />
       <AvailableSnapTests />
-      <WeLookUrgent />
-      <Footer />
+      <WelookDiagnostic />
     </>
   );
 }

@@ -1,9 +1,5 @@
 import LearnMore from "@/componet/common/LearnMore";
 import React from "react";
-import PreventCard from "./PreventCard";
-import SickPatientCareCard from "./SickPatientCareCard";
-import SurgeryCard from "./SurgeryCard";
-import AdditionalServiceCard from "./AdditionalServiceCard";
 import SubHeading from "@/componet/common/SubHeading";
 import Para from "@/componet/common/Para";
 
@@ -35,12 +31,7 @@ function OurService() {
               </div>
             </div>
           </div>
-          <div className="swiper-wrapper justify-center flex sm:px-5 pl-28 gap-10 sm:pb-[140px] pb-[90px] ">
-            <PreventCard />
-            <SickPatientCareCard />
-            <SurgeryCard />
-            <AdditionalServiceCard />
-          </div>
+          <div className="swiper-wrapper justify-center flex sm:px-5 pl-28 gap-10 sm:pb-[140px] pb-[90px] "></div>
         </div>
       </div>
     </>

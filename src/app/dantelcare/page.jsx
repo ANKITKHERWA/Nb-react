@@ -11,13 +11,11 @@ import React from "react";
 function Page() {
   return (
     <>
-      <Navbar />
       <Hero />
       <DantelScale />
       <WhayAcordion />
       <ExceptionalDental />
       <WeLook2 />
-      <Footer />
     </>
   );
 }

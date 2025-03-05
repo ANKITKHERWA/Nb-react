@@ -1,4 +1,4 @@
-import HeroImage from "../common/HeroImage";
+import { FacebookIcon, InstaIcon, LinkdinIcon } from "./Icon";
 
 export const navLink = [
   {
@@ -6,19 +6,19 @@ export const navLink = [
     title: "SERVICES",
   },
   {
-    path: "/about us",
+    path: "/aboutnebulavets",
     title: "ABOUT US",
   },
   {
-    path: "/location",
+    path: "/ourwashingtondcpractice",
     title: "LOCATION",
   },
   {
-    path: "/career",
+    path: "/joinournebulavetsteam",
     title: "CAREER",
   },
   {
-    path: "/PATIENT PORTAL",
+    path: "/service",
     title: "PATIENT PORTAL",
   },
 ];
@@ -31,6 +31,20 @@ export const accordionList2 = [
   { heading: "Environmentally conscious​" },
   { heading: "Expert Team" },
   { heading: "Education" },
+];
+export const footericonlink = [
+  {
+    path: "https://www.facebook.com/login.php/",
+    icon: <FacebookIcon />,
+  },
+  {
+    path: "https://in.linkedin.com/",
+    icon: <LinkdinIcon />,
+  },
+  {
+    path: "https://www.instagram.com/accounts/login/?hl=en",
+    icon: <InstaIcon />,
+  },
 ];
 export const footerServices = [
   {
@@ -52,11 +66,11 @@ export const footerServices = [
 ];
 export const footerCompany = [
   {
-    path: "/About us",
+    path: "/aboutnebulavets",
     title: "About us",
   },
   {
-    path: "/Carreers",
+    path: "/joinournebulavetsteam",
     title: "Carreers",
   },
 ];
@@ -383,26 +397,61 @@ export const acodiagnostics2 = [
   { heading: "Echocardiograms" },
 ];
 export const snapcard1 = [
+  { heading: "SNAP Lepto Test", para: "Add description" },
   {
-    heading: "SNAP Lepto Test",
+    heading: "SNAP cPL Test",
+    para: "Assess canine pancreatic health ",
+  },
+  {
+    heading: "SNAP Giardia Test",
     para: "Add description",
-    heading1: "SNAP cPL Test",
-    para1: "Assess canine pancreatic health ",
-    heading2: "SNAP Giardia Test",
-    para2: "Add description",
-    heading3: "SNAP Parvo Test",
-    para3: "Add description",
+  },
+  {
+    heading: "SNAP Parvo Test",
+    para: "Add description",
   },
 ];
 export const snapcard2 = [
   {
     heading: "SNAP FIV/FeLV Combo Test",
     para: "Add description",
-    heading1: "SNAP fPL Test",
-    para1: "Assess feline pancreatic health ",
-    heading2: "SNAP Giardia Test",
-    para2: "Add description",
-    heading3: "SNAP Feline proBNP Test",
-    para3: "Quickly assess cats with cardiac risk factors",
   },
+  {
+    heading: "SNAP fPL Test",
+    para: "Assess feline pancreatic health ",
+  },
+  {
+    heading: "SNAP Giardia Test",
+    para: "Add description",
+  },
+  {
+    heading: "SNAP Feline proBNP Test",
+    para: "Quickly assess cats with cardiac risk factors",
+  },
+];
+export const pharmacyhero = [
+  {
+    heading: " Pharmacy",
+    para: "At Nebula Vets, we understand the importance of convenient access to necessary medications and pet health products for your furry companions. That's why we have an on-site pharmacy stocked with a wide range of prescription medications, prescription diets, and other pet health products.",
+    btnname: "BOOK NOW",
+    path: "/",
+  },
+];
+export const howitwork = [
+  {
+    heading: "How it works",
+    para: "We understand that time is of the essence when it comes to your pet's health, and waiting for medications to be obtained from an external pharmacy can be inconvenient. By keeping a comprehensive inventory of commonly used medications in our pharmacy, we strive to streamline the process and minimize any delays in providing your pet with the necessary treatment.",
+  },
+  {
+    para: "However, if a specific medication is not readily available in our on-site pharmacy, we have a solution. We work closely with a trusted compounding pharmacy that specializes in creating customized medications. This allows us to quickly obtain or create the specific medication your pet needs. Once the medication is compounded, we can arrange for it to be delivered to you, ensuring that you have it in a timely manner.",
+  },
+];
+export const whychoosepharmasy = [
+  { heading: "Convenience" },
+  { heading: "Quality Assurance" },
+  { heading: "Prescription Medications" },
+  { heading: "Prescription Diets" },
+  { heading: "Wellness and Preventive Products" },
+  { heading: "Expert Guidance" },
+  { heading: "Prescription Refills" },
 ];

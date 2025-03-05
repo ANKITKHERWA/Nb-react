@@ -9,12 +9,10 @@ import React from "react";
 function page() {
   return (
     <>
-      <Navbar />
       <Hero />
       <SliderImage />
       <Care />
       <AllCare />
-      <Footer />
     </>
   );
 }

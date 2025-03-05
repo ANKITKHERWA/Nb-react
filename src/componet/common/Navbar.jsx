@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import LearnMore from "./LearnMore";
 import { navLink } from "../helper/Helper";
+import { NavLogo, NavLogoIcon } from "../helper/Icon";
 
 function Navbar() {
   return (
@@ -12,12 +13,7 @@ function Navbar() {
           <div className="justify-between items-center flex  pb-[18px] pt-[15px] sm:pt-[11px]">
             <div>
               <Link href={"/"} className="max-w-[90px] sm:max-w-[114px]">
-                <Image
-                  src={"/assest/img/png/logo.png"}
-                  width={114}
-                  height={69}
-                  alt="img"
-                />
+                <NavLogoIcon />
               </Link>
             </div>
             <div>
@@ -43,7 +39,7 @@ function Navbar() {
                 src={"/assest/img/svg/menu-bar.svg"}
                 width={48}
                 height={25}
-                alt="menubar"
+                alt={"menubar"}
               />
             </div>
           </div>

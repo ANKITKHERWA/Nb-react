@@ -18,7 +18,7 @@ function AboutVats() {
             }
             imgh={"392"}
             imgw={"611"}
-            alt={"/"}
+            alt={"nebula-stringent"}
           />
         </div>
         <div className="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto relative z-1">
@@ -26,10 +26,9 @@ function AboutVats() {
             <div className="lg:min-w-[400px] max-w-[591px] mx-auto lg:mx-0">
               <HeroImage
                 src={"/assest/img/png/catdog-1st-img.png"}
-                imgclass={""}
                 imgw={"550"}
                 imgh={"591"}
-                alt={"/"}
+                alt={"catdog-1st"}
               />
             </div>
             <div>

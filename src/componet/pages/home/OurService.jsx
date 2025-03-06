@@ -31,7 +31,6 @@ function OurService() {
               </div>
             </div>
           </div>
-          <div className="swiper-wrapper justify-center flex sm:px-5 pl-28 gap-10 sm:pb-[140px] pb-[90px] "></div>
         </div>
       </div>
     </>

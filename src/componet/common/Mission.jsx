@@ -2,7 +2,16 @@ import Image from "next/image";
 import React from "react";
 import LearnMore from "./LearnMore";
 
-function Mission({ title, para, imgsrc, imgH, imgW, alt, className }) {
+function Mission({
+  title,
+  para,
+  imgsrc,
+  imgH,
+  imgW,
+  alt,
+  className,
+  paraclass,
+}) {
   return (
     <>
       <div className="bg-[#494336] relative border-b-[2px] border-solid border-[#D8DADC] max-lg:pb-[142px]">
@@ -17,10 +26,11 @@ function Mission({ title, para, imgsrc, imgH, imgW, alt, className }) {
               className={`text-2xl sm:text-3xl md:text-4xl lg:text-[42px] xl:text-5xl text-[#D7D9DD] mb-[13px] sm:mb-[20px] md:mb-[30px] ${className}`}>
               {title}
             </h4>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-[#D7D9DD] !leading-[26px] mb-[38px] sm:mb-10">
+            <p
+              className={`text-sm sm:text-base md:text-lg lg:text-xl text-[#D7D9DD] !leading-[26px] ${paraclass}`}>
               {para}
             </p>
-            <div>
+            <div className="mt-12">
               <LearnMore learnMore={"BOOK NOW"} path={"/"} />
             </div>
           </div>

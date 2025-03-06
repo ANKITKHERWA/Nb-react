@@ -6,6 +6,7 @@ import {
   footericonlink,
   footerServices,
 } from "../helper/Helper";
+import SubHeading from "./SubHeading";
 
 function Footer() {
   return (
@@ -38,9 +39,12 @@ function Footer() {
             </div>
             <div className="flex max-sm:flex-wrap gap-y-[30px] max-sm:gap-x-[150px] max-md:gap-x-[100px] gap-x-[55px]">
               <div className="flex flex-col gap-[10px] md:gap-[30px]">
-                <h4 className="Roboto-font text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
-                  Services
-                </h4>
+                <SubHeading
+                  heading={"Services"}
+                  subclass={
+                    "Roboto-font text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl"
+                  }
+                />
                 <div className="flex flex-col gap-[7px]">
                   {footerServices.map((item, index) => (
                     <div key={index}>
@@ -54,9 +58,12 @@ function Footer() {
                 </div>
               </div>
               <div className="flex flex-col gap-[10px] md:gap-[30px]">
-                <h4 className="Roboto-font text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
-                  Company
-                </h4>
+                <SubHeading
+                  heading={"Company"}
+                  subclass={
+                    "Roboto-font text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl"
+                  }
+                />
                 <div className="flex flex-col gap-[7px]">
                   {footerCompany.map((item, index) => (
                     <div key={index}>
@@ -70,9 +77,12 @@ function Footer() {
                 </div>
               </div>
               <div className="flex flex-col gap-[10px] md:gap-[30px] xl:ml-[57px] xl:mr-[145px]">
-                <h4 className="Roboto-font text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl">
-                  Contact Us
-                </h4>
+                <SubHeading
+                  heading={"Contact Us"}
+                  subclass={
+                    "Roboto-font text-[#D7D9DD] text-base sm:text-lg md:text-xl lg:text-2xl"
+                  }
+                />
                 <div className="flex flex-col gap-[7px]">
                   {footerContact.map((item, index) => (
                     <div key={index}>

@@ -4,7 +4,16 @@ import MainHeading from "@/componet/common/MainHeading";
 import Para from "@/componet/common/Para";
 import React from "react";
 
-function Hero() {
+function Hero({
+  title,
+  para,
+  imgsrc,
+  imgh,
+  imgw,
+  className,
+  imgclass,
+  paraclass,
+}) {
   return (
     <>
       <div className="overflow-hidden">
@@ -12,24 +21,19 @@ function Hero() {
           <div className="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
             <div className=" justify-between pt-[193px] sm:pb-[80px] pb[0px] sm:flex flex-wrp">
               <div className="lg:pl-[100px] xl:pl-[136px] relative z-1">
-                <MainHeading
-                  title={""}
-                  className={"!pt-[140px] max-w-[602px] !text-[ #D7D9DD]"}
-                />
-                <Para para={""} paraclass={"max-w-[631px]"} />
+                <MainHeading title={title} className={`${className}`} />
+                <Para para={para} paraclass={`${paraclass}`} />
                 <div className="mt-[38px]">
                   <LearnMore learnMore={"BOOK NOW"} path={"/"} />
                 </div>
               </div>
               <div>
                 <HeroImage
-                  src={"/assest/img/png/pharmacy-hero.png"}
-                  imgclass={
-                    "absolute -right-10 bottom-0 sm:block hidden sm:max-w-[500px] xl:max-w-full"
-                  }
-                  imgh={"457"}
-                  imgw={"539"}
-                  alt={"/"}
+                  src={imgsrc}
+                  imgclass={`absolute -right-10 bottom-0 sm:block hidden sm:max-w-[500px] xl:max-w-full ${imgclass}`}
+                  imgh={imgh}
+                  imgw={imgw}
+                  alt={"img"}
                 />
               </div>
             </div>

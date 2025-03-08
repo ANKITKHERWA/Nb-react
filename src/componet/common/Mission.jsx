@@ -21,7 +21,7 @@ function Mission({
         <div
           className="max-w-[1160px] px-8 sm:px-[40px] py-[60px] sm:py-[80px] mx-auto"
           id="portal">
-          <div className=" z-1 relative">
+          <div className="z-1 relative">
             <h4
               className={`text-2xl sm:text-3xl md:text-4xl lg:text-[42px] xl:text-5xl text-[#D7D9DD] mb-[13px] sm:mb-[20px] md:mb-[30px] ${className}`}>
               {title}

@@ -21,8 +21,14 @@ function Hero({
           <div className="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
             <div className=" justify-between pt-[193px] sm:pb-[80px] pb[0px] sm:flex flex-wrp">
               <div className="lg:pl-[100px] xl:pl-[136px] relative z-1">
-                <MainHeading title={title} className={`${className}`} />
-                <Para para={para} paraclass={`${paraclass}`} />
+                <MainHeading
+                  title={title}
+                  className={`text-[32px] sm:text-[40px] md:text-[48px] lg:text-[58px] xl:text-[70px] sm:mt-0 text-[#D7D9DD] leading-[104%] ${className}`}
+                />
+                <Para
+                  para={para}
+                  paraclass={`text-[#D7D9DD] mt-7 sm:mt-5 lg:mt-[28px] text-base lg:text-lg xl:text-xl max-w-[660px] ${paraclass}`}
+                />
                 <div className="mt-[38px]">
                   <LearnMore learnMore={"BOOK NOW"} path={"/"} />
                 </div>

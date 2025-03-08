@@ -1,5 +1,5 @@
 import AboutVats from "@/componet/pages/home/AboutVats";
-import AllCard from "@/componet/pages/home/AllCard";
+import AllCard from "@/componet/common/AllCard";
 import HomeHero from "@/componet/pages/home/HomeHero";
 import OurApproach from "@/componet/pages/home/OurApproach";
 import OurMission from "@/componet/pages/home/OurMission";

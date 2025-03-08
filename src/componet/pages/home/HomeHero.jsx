@@ -14,11 +14,13 @@ function Hero({}) {
               <div className="lg:pl-[100px] xl:pl-[136px] relative z-1">
                 <MainHeading
                   title={"Welcome to Nebula Vets"}
-                  classname={"max-w-[511px]"}
+                  classname={
+                    "sm:max-w-[511px] max-w-[230px] sm:!text-[#D7D9DD] !text-[#494336]"
+                  }
                 />
                 <Para
                   para={"Reinventing Pet Medicine"}
-                  paraclass="sm:text-[#D7D9DD] mt-2 sm:mt-4 lg:mt-[28px] text-base sm:txt-lg md:text-xl lg:text-2xl xl:text-[28px]"
+                  paraclass="sm:!text-[#D7D9DD] !text-[#494336] mt-2 sm:mt-4 lg:mt-[28px] text-base sm:txt-lg md:text-xl lg:text-2xl xl:text-[28px]"
                 />
                 <div className="mt-[38px]">
                   <LearnMore learnMore={"BOOK NOW"} path={"/"} />
@@ -34,8 +36,24 @@ function Hero({}) {
                   imgw={"600"}
                   alt={"img"}
                 />
+                <HeroImage
+                  src={"/assest/img/png/hero-absulate.png"}
+                  imgclass={"absolute -right-20 bottom-[160px] sm:hidden block"}
+                  imgh={"265"}
+                  imgw={"265"}
+                  alt={"img"}
+                />
               </div>
             </div>
+          </div>
+          <div className="mt-[60px]">
+            <HeroImage
+              src={"/assest/img/png/hero-small.png"}
+              imgclass={"sm:hidden max-w-full"}
+              imgh={"278"}
+              imgw={"676"}
+              alt={"img"}
+            />
           </div>
         </div>
       </div>

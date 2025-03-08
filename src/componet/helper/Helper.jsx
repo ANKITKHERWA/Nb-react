@@ -1,4 +1,12 @@
-import { FacebookIcon, InstaIcon, LinkdinIcon } from "./Icon";
+import {
+  AdditionalServicesIcon,
+  FacebookIcon,
+  InstaIcon,
+  LinkdinIcon,
+  PreventiveCareIcon,
+  SickPatientCareIcon,
+  SurgeryIcon,
+} from "./Icon";
 
 export const navLink = [
   {
@@ -46,44 +54,7 @@ export const footericonlink = [
     icon: <InstaIcon />,
   },
 ];
-export const footerServices = [
-  {
-    path: "/Preventive Care",
-    title: "Preventive Care",
-  },
-  {
-    path: "/Sick Patient Care",
-    title: "Sick Patient Care",
-  },
-  {
-    path: "/Surgery",
-    title: "Surgery",
-  },
-  {
-    path: "/Additional Services",
-    title: "Additional Services",
-  },
-];
-export const footerCompany = [
-  {
-    path: "/aboutnebulavets",
-    title: "About us",
-  },
-  {
-    path: "/joinournebulavetsteam",
-    title: "Carreers",
-  },
-];
-export const footerContact = [
-  {
-    path: "/tel:+91 2121234567",
-    title: "Phone: (212) 123-4567",
-  },
-  {
-    path: "/mailto:hello@gmail.com",
-    title: "hello@nebulavets.com",
-  },
-];
+
 export const animalAcordion = [
   { heading: "Early Detection and Prevention​" },
   { heading: "Tailored Care for Different Life Stages" },
@@ -454,4 +425,128 @@ export const whychoosepharmasy = [
   { heading: "Wellness and Preventive Products" },
   { heading: "Expert Guidance" },
   { heading: "Prescription Refills" },
+];
+// footerdata
+export const foterData = [
+  {
+    title: "Services",
+    subdata: [
+      {
+        path: "/",
+        point: "Preventive Care",
+      },
+      {
+        path: "/",
+        point: "Sick Patient Care",
+      },
+      {
+        path: "/",
+        point: "Surgery",
+      },
+      {
+        path: "/",
+        point: "Additional Services",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    subdata: [
+      {
+        path: "about us",
+        point: "About us",
+      },
+      {
+        path: "carreers",
+        point: "Carreers",
+      },
+    ],
+  },
+  {
+    title: "Contact Us",
+    subdata: [
+      {
+        path: "Phone: (212) 123-4567",
+        point: "Phone: (212) 123-4567",
+      },
+      {
+        path: "hello@nebulavets.com",
+        point: "hello@nebulavets.com",
+      },
+    ],
+  },
+];
+export const cardData1 = [
+  {
+    icon: <PreventiveCareIcon />,
+    title: "Preventive Care",
+    subdata: [
+      {
+        path: "/",
+        point: "Animal Health Check",
+      },
+      {
+        path: "/",
+        point: "Vaccinations",
+      },
+      {
+        path: "/",
+        point: "Dental",
+      },
+    ],
+  },
+  {
+    icon: <SickPatientCareIcon />,
+    title: "Sick Patient Care",
+    subdata: [
+      {
+        path: "/",
+        point: "Urgent & Emergency Care",
+      },
+      {
+        path: "/",
+        point: "Telemedicine",
+      },
+      {
+        path: "/",
+        point: "Diagnostics",
+      },
+      {
+        path: "/",
+        point: "Pharmacy",
+      },
+    ],
+  },
+  {
+    icon: <SurgeryIcon />,
+    title: "Surgery",
+    subdata: [
+      {
+        path: "/",
+        point: "Surgeries",
+      },
+      {
+        path: "/",
+        point: "Spay & Neuter",
+      },
+    ],
+  },
+  {
+    icon: <AdditionalServicesIcon />,
+    title: "Additional Services",
+    subdata: [
+      {
+        path: "/",
+        point: "Travel Certificates",
+      },
+      {
+        path: "/",
+        point: "Skin & Dermatology",
+      },
+      {
+        path: "/",
+        point: "Euthanasia",
+      },
+    ],
+  },
 ];

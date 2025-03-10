@@ -2,7 +2,7 @@ import React from "react";
 import SubHeading from "./SubHeading";
 import Para from "./Para";
 
-function Experince({ heading, para, className, paraclass }) {
+function Experince({ heading, para }) {
   return (
     <>
       <div className="bg-[rgb(215,217,221,0.50)] py-[40px] sm:py-[80px]">
@@ -10,11 +10,11 @@ function Experince({ heading, para, className, paraclass }) {
           <div className="sm:px-[25px] lg:px-[70px] xl:px-[130px]">
             <SubHeading
               heading={heading}
-              subclass={`text-2xl sm:text-3xl md:text-4xl text-[#494336] sm:max-w-full ${className}`}
+              subclass={`text-2xl sm:text-3xl md:text-4xl text-[#494336] max-w-full `}
             />
             <Para
               para={para}
-              paraclass={`text-sm sm:text-lg md:text-xl text-[#494336] mt-[20px] max-w-full ${paraclass}`}
+              paraclass={`text-sm sm:text-lg md:text-xl !text-[#494336] mt-[20px] max-w-full `}
             />
           </div>
         </div>

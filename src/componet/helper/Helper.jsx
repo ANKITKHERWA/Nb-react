@@ -550,3 +550,17 @@ export const cardData1 = [
     ],
   },
 ];
+export const animalList = [
+  {
+    li: "-Vaccinations",
+  },
+  { li: "-Blood panels" },
+  {
+    li: "-Dietary advise",
+  },
+  { li: "-Parasitic prevention" },
+  { li: "-Microchipping" },
+  { li: "-Dental care" },
+  { li: "-Fecal tests" },
+  { li: "-Skin tests" },
+];

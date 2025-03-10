@@ -1,5 +1,6 @@
 import Para from "@/componet/common/Para";
 import SubHeading from "@/componet/common/SubHeading";
+import { animalList } from "@/componet/helper/Helper";
 import Image from "next/image";
 import React from "react";
 
@@ -30,32 +31,13 @@ function AnimalHealthExam() {
                 }
                 paraclass={"sm:text-xl text-base !text-[#494336] !max-w-full"}
               />
-              <ul className="list-none">
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Vaccinations
-                </li>
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Blood panels
-                </li>
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Parasitic prevention
-                </li>
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Microchipping
-                </li>
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Dental care
-                </li>
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Fecal tests
-                </li>
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Skin tests
-                </li>
-                <li className="sm:text-xl text-base text-[#494336]">
-                  -Dietary advise
-                </li>
-              </ul>
+              {animalList.map((item, index) => (
+                <ul key={index} className="list-none">
+                  <li className="sm:text-xl text-base text-[#494336]">
+                    {item.li}
+                  </li>
+                </ul>
+              ))}
             </div>
           </div>
         </div>

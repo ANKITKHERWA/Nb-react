@@ -1,9 +1,12 @@
+import { headers } from "next/headers";
 import {
   AdditionalServicesIcon,
   FacebookIcon,
   InstaIcon,
+  KittenScheduleIcon,
   LinkdinIcon,
   PreventiveCareIcon,
+  PuppiesScheduleIcon,
   SickPatientCareIcon,
   SurgeryIcon,
 } from "./Icon";
@@ -563,4 +566,87 @@ export const animalList = [
   { li: "-Dental care" },
   { li: "-Fecal tests" },
   { li: "-Skin tests" },
+];
+export const puppiesScheduleCard = [
+  {
+    icon: <PuppiesScheduleIcon />,
+    title: "Puppies Schedule",
+    subdata: [
+      {
+        heading: "8 weeks: ",
+        para: "Distemper vaccine, Leptospirosis, Bordetella vaccine, Lyme vaccine & Canine Influenza Virus vaccine",
+      },
+      {
+        heading: "12 weeks: ",
+        para: "Distemper vaccine, Leptospirosis vaccine, Rabies vaccine, Lyme vaccine & Canine Influenza Virus vaccine",
+      },
+      {
+        heading: "Booster: ",
+        para: "Once a year",
+      },
+    ],
+  },
+  {
+    icon: <KittenScheduleIcon />,
+    title: "Kitten Schedule",
+    subdata: [
+      {
+        heading: "8 weeks: ",
+        para: "FVRCP vaccine and Leukemia vaccines",
+      },
+      {
+        heading: "12 weeks:",
+        para: "FVRCP vaccine, Leukemia vaccine& Rabies vaccine",
+      },
+    ],
+  },
+
+  {
+    icon: <PuppiesScheduleIcon />,
+    title: "Adult Dog Schedule",
+    subdata: [
+      {
+        heading: "",
+        para: "Rabies: One year after the initial puppy vaccine, then every three years",
+      },
+      {
+        heading: "",
+        para: "Distemper: Every three years",
+      },
+      {
+        heading: "",
+        para: "Bordetella: Every year",
+      },
+      {
+        heading: "",
+        para: "Leptospirosis: Every year",
+      },
+      {
+        heading: "",
+        para: "Canine influenza: Every year",
+      },
+      {
+        heading: "",
+        para: "Lyme disease: Every year",
+      },
+    ],
+  },
+  {
+    icon: <KittenScheduleIcon />,
+    title: "Adult Cat Schedule",
+    subdata: [
+      {
+        heading: "",
+        para: "FVRCP: Every year",
+      },
+      {
+        heading: "",
+        para: "Rabies: Every three years",
+      },
+      {
+        heading: "",
+        para: "Feline Leukemia Virus: Every year",
+      },
+    ],
+  },
 ];

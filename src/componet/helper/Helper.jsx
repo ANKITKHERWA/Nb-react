@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import {
   AdditionalServicesIcon,
+  DrIcon,
   FacebookIcon,
   InstaIcon,
   KittenScheduleIcon,
@@ -658,5 +659,61 @@ export const whyCommon = [
   {
     heading: "What are core and non-core vaccines?",
     para: "Core vaccines are often vaccines considered essential for your pet’s health, whilst non-core vaccines are optional, and may be recommended for your pet depending on their lifestyle.Our vets will discuss the suitable vaccines for your pet during the consultation.",
+  },
+];
+export const danielAbouts = [
+  {
+    heading: "Inspiration and Vision",
+    para: "Daniel's journey began with a profound inspiration to make a positive impact on the lives of pets and their owners. He envisioned a veterinary practice that would go beyond the conventional norms, offering exceptional care, innovative treatments, and a compassionate approach.",
+  },
+  {
+    heading: "Elevating the Standard of Care",
+    para: "Determined to raise the standard of care, Daniel assembled a team of like-minded professionals who shared his vision and values.Together, they worked tirelessly to create a veterinary practice that would exceed expectations and set new benchmarks in veterinary medicine.",
+  },
+];
+export const picturePractice = [
+  {
+    heading: "Innovation and Cutting-Edge Technology",
+    para: "Nebula Vets embraced the power of innovation and embraced cutting-edge technology to enhance their diagnostic capabilities, treatment options, and overall patient care. From advanced imaging techniques to state-of-the-art surgical equipment, Nebula Vets ensures that their veterinarians have access to the latest tools and techniques to deliver optimal outcomes.",
+  },
+  {
+    heading: "Compassionate Care & Client Relationships",
+    para: "Nebula Vets prides itself on providing compassionate care not only to the pets but also to their owners. We understand the deep bond between humans and animals and strive to create a nurturing and supportive environment for both. Building strong client relationships based on trust, open communication, and empathy is at the heart of their practice.",
+  },
+];
+export const engagementEducation = [
+  {
+    heading: "Community Engagement and Education",
+    para: "Nebula Vets is committed to being an active and integral part of the community we serve. We actively engage in educational initiatives, organizing workshops, seminars, and community events to spread awareness about pet care, responsible ownership, and the importance of preventive medicine.",
+  },
+  {
+    heading: "Sustainability  & Environmental Responsibility",
+    para: "Recognizing the impact of the veterinary field on the environment, Nebula Vets is dedicated to promoting sustainability and environmental responsibility. We have implemented eco-friendly practices within our facility, reduced waste, and actively participate in initiatives that support a greener future for veterinary medicine.",
+  },
+];
+export const veterinaryTeam = [
+  {
+    icon: <DrIcon />,
+    para: "Dr. Daniel Hodnett-Lewis Chief Veterinary Officer",
+  },
+  {
+    icon: <DrIcon />,
+    para: "Dr. Jane Doe Veterinarian",
+  },
+  {
+    icon: <DrIcon />,
+    para: "Dr. Jane Doe Veterinarian",
+  },
+  {
+    icon: <DrIcon />,
+    para: "Dr. Jane Doe Veterinarian",
+  },
+  {
+    icon: <DrIcon />,
+    para: "Dr. Jane Doe Veterinarian",
+  },
+  {
+    icon: <DrIcon />,
+    para: "Dr. Jane Doe Veterinarian",
   },
 ];

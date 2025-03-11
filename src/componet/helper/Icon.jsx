@@ -551,3 +551,15 @@ export const KittenScheduleIcon = () => {
     </>
   );
 };
+export const DrIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="208"
+      height="208"
+      viewBox="0 0 208 208"
+      fill="none">
+      <circle cx="103.535" cy="104.306" r="103.5" fill="#D9D9D9" />
+    </svg>
+  );
+};

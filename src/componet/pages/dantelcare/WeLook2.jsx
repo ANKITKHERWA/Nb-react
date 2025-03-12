@@ -6,9 +6,11 @@ function WeLook2() {
     <>
       <Mission
         title={"We look forward to seeing you and your pet soon!"}
+        className={"!text-2xl sm:!text-3xl md:!text-4xl"}
         para={
-          "Schedule an animal health check at Nebula Vets today, and let us embark on a journey of comprehensive care for your cherished companion. Together, we will nurture their health and happiness, one check-up at a time."
+          "Schedule a dental appointment at Nebula Vets today, and let us illuminate your pet's smile for a lifetime of dental wellness and happiness. Together, we will nurture their oral health, one shining smile at a time."
         }
+        paraclass={"max-w-[850px]"}
         imgsrc={"/assest/img/png/footer-nabula.png"}
         imgH={"376"}
         imgW={"603"}

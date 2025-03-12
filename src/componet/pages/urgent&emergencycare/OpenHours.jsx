@@ -1,5 +1,6 @@
 import Para from "@/componet/common/Para";
 import SubHeading from "@/componet/common/SubHeading";
+import { urgentList } from "@/componet/helper/Helper";
 import Image from "next/image";
 import React from "react";
 
@@ -62,47 +63,13 @@ function OpenHours() {
                 }
               />
               <div>
-                <ul className="list-disc pl-5">
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Open wounds
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Toxin ingestion or foreign body
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Signs of pain
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Behavioral changes
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Eye issues
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Ear infections
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Vomiting or diarrhea
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Hair loss
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Coughing, sneezing or nasal discharge
-                  </li>
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Urinating blood or urinary changes
-                  </li>{" "}
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Worms, fleas, ticks or mites
-                  </li>{" "}
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Scooting
-                  </li>{" "}
-                  <li className="md:text-lg sm:text-base text:sm text-[#494336]">
-                    Changes in eating or drinking
-                  </li>
-                </ul>
+                {urgentList.map((item, index) => (
+                  <ul key={index} className="list-disc pl-5">
+                    <li className="sm:text-xl text-base text-[#494336]">
+                      {item.li}
+                    </li>
+                  </ul>
+                ))}
               </div>
             </div>
           </div>

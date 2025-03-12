@@ -14,7 +14,7 @@ function Experince({ heading, para }) {
             />
             <Para
               para={para}
-              paraclass={`text-sm sm:text-lg md:text-xl !text-[#494336] mt-[20px] max-w-full `}
+              paraclass={`text-sm sm:text-lg md:text-xl !text-[#494336] mt-[20px] max-w-full`}
             />
           </div>
         </div>

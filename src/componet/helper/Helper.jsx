@@ -1,4 +1,3 @@
-import { headers } from "next/headers";
 import {
   AdditionalServicesIcon,
   DrIcon,
@@ -561,6 +560,23 @@ export const animalList = [
   { li: "-Fecal tests" },
   { li: "-Skin tests" },
 ];
+export const urgentList = [
+  {
+    li: "Open wounds",
+  },
+  { li: "Toxin ingestion or foreign body" },
+  { li: "Signs of pain" },
+  { li: "Behavioral changes" },
+  { li: "Eye issues" },
+  { li: "Ear infections" },
+  { li: "Vomiting or diarrhea" },
+  { li: "Hair loss" },
+  { li: "Coughing, sneezing or nasal discharge" },
+  { li: "Urinating blood or urinary changes" },
+  { li: "Worms, fleas, ticks or mites" },
+  { li: "Scooting" },
+  { li: "Changes in eating or drinking" },
+];
 export const puppiesScheduleCard = [
   {
     icon: <PuppiesScheduleIcon />,
@@ -654,6 +670,21 @@ export const whyCommon = [
     para: "Core vaccines are often vaccines considered essential for your pet’s health, whilst non-core vaccines are optional, and may be recommended for your pet depending on their lifestyle.Our vets will discuss the suitable vaccines for your pet during the consultation.",
   },
 ];
+
+export const dantelScale = [
+  {
+    heading: "Dentals - Scale & Polish",
+    para: "Dental health is a vital aspect of your pet's overall well-being. Just like humans, pets can experience dental problems, including plaque buildup, gum disease, and tooth decay. At Nebula Vets, we prioritize dental care and offer comprehensive dental services to ensure your pet's oral health remains in top condition.",
+  },
+  {
+    heading: "When to schedule a dental consultation",
+    para: "If you notice any signs of dental problems in your pet, such as bad breath, red or swollen gums, difficulty eating, or loose teeth, it's essential to seek professional dental care. Schedule a dental consultation at Nebula Vets to have our skilled team assess your pet's dental health and recommend the most appropriate treatment options.",
+  },
+  {
+    heading: "Post Dental Care",
+    para: "Most pets recover quickly after a dental. A little tiredness, and some post-anesthesia anxiety is normal. You can feed your pet the evening of their procedure; soft food for 14 days is recommended if any dental extractions were performed. If your pet had any extractions performed, we will send them home with pain relief to keep them comfortable.",
+  },
+];
 export const danielAbouts = [
   {
     heading: "Inspiration and Vision",
@@ -680,10 +711,11 @@ export const engagementEducation = [
     para: "Nebula Vets is committed to being an active and integral part of the community we serve. We actively engage in educational initiatives, organizing workshops, seminars, and community events to spread awareness about pet care, responsible ownership, and the importance of preventive medicine.",
   },
   {
-    heading: "Sustainability  & Environmental Responsibility",
+    heading: "Sustainability & Environmental Responsibility",
     para: "Recognizing the impact of the veterinary field on the environment, Nebula Vets is dedicated to promoting sustainability and environmental responsibility. We have implemented eco-friendly practices within our facility, reduced waste, and actively participate in initiatives that support a greener future for veterinary medicine.",
   },
 ];
+
 export const veterinaryTeam = [
   {
     icon: <DrIcon />,

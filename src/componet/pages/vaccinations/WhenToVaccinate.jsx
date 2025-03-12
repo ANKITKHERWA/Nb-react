@@ -26,7 +26,7 @@ function WhenToVaccinate() {
                     {item.icon}
                     <MainHeading
                       title={item.title}
-                      classname={
+                      className={
                         "!text-2xl sm:!text-3xl md:!text-[40px] xl:!text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB]"
                       }
                     />

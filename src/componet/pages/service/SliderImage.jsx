@@ -8,7 +8,7 @@ function SliderImage() {
         <div className="justify-between items-center gap-10 flex flex-wrap">
           <div className="sm:max-w-[296px] md:max-w-[350px] max-w-full">
             <Image
-              src={"/assest/img/png/dog-men.png"}
+              src={"/assest/img/png/dog-man.png"}
               width={420}
               height={420}
               alt="img"
@@ -16,7 +16,7 @@ function SliderImage() {
           </div>
           <div className="sm:max-w-[296px] md:max-w-[350px] max-w-full">
             <Image
-              src={"/assest/img/png/dog2-img.png"}
+              src={"/assest/img/png/dog2.png"}
               width={420}
               height={420}
               alt="img"
@@ -24,7 +24,7 @@ function SliderImage() {
           </div>
           <div className="sm:max-w-[296px] md:max-w-[350px] max-w-full">
             <Image
-              src={"/assest/img/png/catdog-1st-img.png"}
+              src={"/assest/img/png/catdog-1.png"}
               width={420}
               height={420}
               alt="img"

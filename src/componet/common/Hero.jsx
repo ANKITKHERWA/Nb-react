@@ -23,11 +23,11 @@ function Hero({
               <div className="lg:pl-[100px] xl:pl-[136px] relative z-1">
                 <MainHeading
                   title={title}
-                  className={`text-[32px] sm:text-[40px] md:text-[48px] lg:text-[58px] xl:text-[70px] sm:mt-0 text-[#D7D9DD] leading-[104%] ${className}`}
+                  className={`leading-[104%] ${className}`}
                 />
                 <Para
                   para={para}
-                  paraclass={`text-[#D7D9DD] mt-7 sm:mt-5 lg:mt-[28px] text-base lg:text-lg xl:text-xl max-w-[660px] ${paraclass}`}
+                  paraclass={`text-[#D7D9DD] mt-7 sm:mt-5 lg:mt-[28px]  max-w-[660px] ${paraclass}`}
                 />
                 <div className="mt-[38px]">
                   <LearnMore learnMore={"BOOK NOW"} path={"/"} />

@@ -18,9 +18,12 @@ function Hero() {
                   className="lg:pl-[100px] xl:pl-[136px] relative z-1">
                   <MainHeading
                     title={item.heading}
-                    className={"!pt-[140px] max-w-[602px] !text-[ #D7D9DD]"}
+                    className={"!pt-[140px] max-w-[602px] text-[ #D7D9DD]"}
                   />
-                  <Para para={item.para} paraclass={"max-w-[631px]"} />
+                  <Para
+                    para={item.para}
+                    paraclass={"max-w-[631px] text-[ #D7D9DD]"}
+                  />
                   <div className="mt-[38px]">
                     <LearnMore learnMore={item.btnname} path={item.path} />
                   </div>

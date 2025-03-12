@@ -141,7 +141,7 @@ export const WhayAco = [
 ];
 export const preCare = [
   {
-    src: "/assest/img/png/Preventive-care-big.png",
+    src: "/assest/img/png/Preventive-big.png",
     heading: "Preventive Care",
     para: "Your pet's well-being at the forefront of our practice.",
     para1:
@@ -404,14 +404,7 @@ export const snapcard2 = [
     para: "Quickly assess cats with cardiac risk factors",
   },
 ];
-export const pharmacyhero = [
-  {
-    heading: " Pharmacy",
-    para: "At Nebula Vets, we understand the importance of convenient access to necessary medications and pet health products for your furry companions. That's why we have an on-site pharmacy stocked with a wide range of prescription medications, prescription diets, and other pet health products.",
-    btnname: "BOOK NOW",
-    path: "/",
-  },
-];
+
 export const howitwork = [
   {
     heading: "How it works",

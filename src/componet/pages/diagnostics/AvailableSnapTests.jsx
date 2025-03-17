@@ -43,7 +43,7 @@ function AvailableSnapTests() {
               <div className="h-full bg-[#494336] pl-[60px] w-[48%] h-[40%] pt-[45px] pb-[80px] relative">
                 <ul className="list-disc z-1">
                   {snapcard2.map((item, index) => (
-                    <ul key={index}>
+                    <ul key={index} className="list-disc">
                       <li className="sm:text-2xl text-xl text-[#D7D9DD] Roboto-font">
                         {item.heading}
                       </li>

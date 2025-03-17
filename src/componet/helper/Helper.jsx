@@ -68,6 +68,14 @@ export const animalAcordion = [
   { heading: "Client Education and Support" },
 ];
 
+export const whychooseSurgey = [
+  { heading: "Expert Surgical Team" },
+  { heading: "Comprehensive Surgical Services" },
+  { heading: "Cutting-Edge Facilities and Technology​" },
+  { heading: "Personalized Care" },
+  { heading: "Optimal Safety and Comfort" },
+  { heading: "Compassionate Post-Surgical Care" },
+];
 export const vaccinateAco = [
   { heading: "Core Dog Vaccines" },
   { heading: "Non-Core Dog Vaccines" },
@@ -683,6 +691,39 @@ export const dantelScale = [
   {
     heading: "Post Dental Care",
     para: "Most pets recover quickly after a dental. A little tiredness, and some post-anesthesia anxiety is normal. You can feed your pet the evening of their procedure; soft food for 14 days is recommended if any dental extractions were performed. If your pet had any extractions performed, we will send them home with pain relief to keep them comfortable.",
+  },
+];
+export const whayTelemedicine = [
+  {
+    heading: "Post Dental Care",
+    para: "Most pets recover quickly after a dental. A little tiredness, and some post-anesthesia anxiety is normal. You can feed your pet the evening of their procedure; soft food for 14 days is recommended if any dental extractions were performed. If your pet had any extractions performed, we will send them home with pain relief to keep them comfortable.",
+  },
+  {
+    heading: "During the online consultation",
+    para: "Our veterinarians will carefully assess the information you provide and ask relevant questions to better understand your pet's condition. Based on their evaluation, they can advise you on whether it's safe to monitor the situation at home or if furtherin-person evaluation and treatment are necessary.",
+  },
+  {
+    para: "This immediate access to professional veterinary advice can be particularly valuable in situations where you're unsure if a symptom or behavior is concerning enough to warrant a visit to the clinic. It can save you time and unnecessary stress by providing clarity and peace  of mind.",
+  },
+  {
+    para: "However, it's important to note that there are limitations to telemedicine, and certain cases may still require an in-person visit for a thorough examination or diagnostic tests. Our veterinarians will use their expertise to determine the most appropriate course of action based on the information provided during the telemedicine consultation.",
+  },
+];
+export const preConsultation = [
+  {
+    heading: "Does my pet need a pre-consultation?",
+    para: "Yes, by conducting a pre-operative consultation, performing a physical examination, and considering bloodwork results, we can minimize the risks associated with surgery and optimize the outcome for your beloved pet. Your pet's safety and well-being are our top priorities throughout the entire surgical process.",
+  },
+  {
+    heading: "How much will it cost?",
+    para: "Surgery costs can vary based on several factors, including the specific procedure your pet requires, their weight, any necessary medications, and additional considerations. To provide you with an accurate estimate for your pet's surgery, we recommend booking a pre-surgical consultation with our experienced veterinarians.",
+  },
+  {
+    para: "If you prefer, you can also reach out to us via email at nebulavets@gmail.comto request an estimate. Please provide us with as much information as possible about your pet's condition and the specific procedure they may need. Our team will review your request and respond promptly with an estimate based on the information provided.",
+  },
+  {
+    heading: "Do you accept insurance?",
+    para: "Yes, at Nebula Vets, we accept all forms of pet insurance. We understand the importance of financial support when it comes to your pet's healthcare needs. By accepting various pet insurance providers, we aim to make the reimbursement process as seamless as possible for our clients.",
   },
 ];
 export const danielAbouts = [

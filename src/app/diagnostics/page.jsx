@@ -4,7 +4,7 @@ import Aco2 from "@/componet/pages/diagnostics/Aco2";
 import AcoDiagnostics from "@/componet/pages/diagnostics/AcoDiagnostics";
 import Availableimaging from "@/componet/pages/diagnostics/AvailableImaging";
 import AvailableTests from "@/componet/pages/diagnostics/AvailableTests";
-import Hero from "@/componet/pages/diagnostics/Hero";
+import Hero from "@/componet/pages/diagnostics/DiagnosticHero";
 import AvailableSnapTests from "@/componet/pages/diagnostics/AvailableSnapTests";
 import WeLookUrgent from "@/componet/pages/urgent&emergencycare/WeLookUrgent";
 import React from "react";

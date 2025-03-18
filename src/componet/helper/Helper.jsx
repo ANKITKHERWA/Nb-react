@@ -948,9 +948,41 @@ export const downtownMap = [
     title: "",
   },
   {
-    heading: "Downtown",
-    para: "2468 18th Street, SW Washington DC, 20003",
+    heading: "Opening Hours",
+    para: "Monday - Friday: 8AM - 6PM  Saturday: 9AM - 5PM Sunday: Closed",
     path: "/",
     title: "",
+  },
+  {
+    heading: "Contact",
+    para: "",
+    path: "Phone: (212) 123-4567",
+    title: "Phone: (212) 123-4567",
+  },
+  {
+    heading: "",
+    para: "",
+    path: "hello@nebulavets.com",
+    title: "hello@nebulavets.com",
+  },
+];
+export const teamAco = [
+  {
+    heading: "Commitment to Excellence",
+  },
+  {
+    heading: "Collaborative and Supportive Environment",
+  },
+  {
+    heading: "Advanced Facilities and Technology",
+  },
+  {
+    heading: "Focus on Work-Life Balance",
+  },
+  {
+    heading: "Continuous Professional Development",
+  },
+  {
+    heading: "A Culture of Compassion",
   },
 ];

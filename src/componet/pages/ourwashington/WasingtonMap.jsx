@@ -7,11 +7,12 @@ function WasingtonMap() {
   return (
     <>
       <div className="bg-[rgba(215,217,221,0.50)] relative">
-        <div className="absolute bottom-0 right-0 left-0 mx-auto w-full -z-5">
+        <div className="absolute bottom-0 right-0 left-0 mx-auto  -z-5">
           <Image
             src={"/assest/img/png/wasington-nbl.png"}
             width={"1440"}
             height={"520"}
+            className="w-full"
           />
         </div>
         <div className="max-w-[1360px] md:px-[40px] mx-auto pt-15 md:pt-20 pb-[120px] md:pb-[140px] relative z-[1]">
@@ -19,14 +20,18 @@ function WasingtonMap() {
             <div className="max-md:px-8 w-full md:w-[39.17%] flex flex-col gap-[38.5px] sm:gap-8 xl:ml-[100px] max-md:mt-15 md:mt-[0px] mt-[60px]">
               {downtownMap.map((item, index) => (
                 <div key={index}>
-                  <div className="text-[#494336] text-2xl sm:text-[26px] md:text-3xl lg:text-4xl">
+                  <div className="text-[#494336] text-2xl sm:text-[26px] md:text-3xl lg:text-4xl mb-10">
                     {item.heading}
                   </div>
-                  <div className="text-[#494336] text-base sm:text-lg md:text-xl lg:text-2xl Roboto-font max-sm:mb-1 mt-10 max-w-[400px]">
+                  <div className="text-[#494336] text-base sm:text-lg md:text-xl lg:text-2xl Roboto-font max-sm:mb-1  max-w-[400px]">
                     {item.para}
                   </div>
                   <div>
-                    <Link href={item.path}>{item.title}</Link>
+                    <Link
+                      href={item.path}
+                      className="text-[#494336] text-base sm:text-lg md:text-xl lg:text-2xl Roboto-font max-sm:mb-1 ">
+                      {item.title}
+                    </Link>
                   </div>
                 </div>
               ))}
